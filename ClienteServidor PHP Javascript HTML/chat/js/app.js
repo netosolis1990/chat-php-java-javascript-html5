@@ -67,7 +67,7 @@ $(document).ready(function() {
 
 
     //Creamos un onjeto Pusher que recibe como parametro la KEY
-    var pusher = new Pusher(app_id);
+    var pusher = new Pusher(app_key);
     //Suscribirnos a un canal de comunicacion...en este caso llamado chat
     var channel = pusher.subscribe(canal);
     //Escuchamos un evento...en este caso llamado mensaje... cuando escuche por el evento entonces mostrara el mensaje recibido
